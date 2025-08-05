@@ -1,0 +1,6 @@
+# probe-action/action.yml
+name: "Probe Deployed App"
+description: "Probes a deployed streamlit app."
+runs:
+  using: "docker"
+  image: "Dockerfile"
